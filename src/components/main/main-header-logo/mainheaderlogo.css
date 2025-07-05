@@ -133,4 +133,8 @@ h1 {
     padding: 0rem 16rem;
     grid-template-columns: repeat(3, 1fr);
   }
+
+  .orange-box-text {
+    font-size: 3.2rem;
+  }
 }
