@@ -8,7 +8,7 @@ import photography from "/images/icon-photography.svg";
 
 export default function MainHeaderLogo() {
   return (
-    <>
+    <div className="main-container">
       <div className="main-header-logo-container">
         <div className="title-button-wrapper">
           <div className="title-wrapper">
@@ -72,6 +72,6 @@ export default function MainHeaderLogo() {
           }
         />
       </div>
-    </>
+    </div>
   );
 }

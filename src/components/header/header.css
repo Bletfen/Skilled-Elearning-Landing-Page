@@ -25,5 +25,12 @@
 @media only screen and (min-width: 48rem) {
   .header {
     margin: unset;
+    padding: 2.4rem 4.4rem;
+  }
+}
+
+@media only screen and (min-width: 90rem) {
+  .header {
+    padding: 2.4rem 16rem;
   }
 }

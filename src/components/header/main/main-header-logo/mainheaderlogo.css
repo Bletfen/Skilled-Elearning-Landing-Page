@@ -89,7 +89,6 @@ h1 {
   .main-header-logo-container {
     flex-direction: row;
     padding: 6.4rem 0rem 6.4rem 4.4rem;
-    position: relative;
     overflow: hidden;
     align-items: center;
     background-image: url(/images/image-hero-tablet.png);
@@ -109,5 +108,24 @@ h1 {
 
 @media only screen and (min-width: 90rem) {
   .main-header-logo-container {
+    padding: 6.4rem 0rem 6.4rem 16rem;
+    background-image: unset;
+    background-image: url(/images/image-hero-desktop.png);
+    background-position: right -16rem top -20rem;
+    background-size: 50%;
+    overflow: visible;
+  }
+
+  .title-button-wrapper {
+    max-width: 100%;
+  }
+
+  .description {
+    max-width: 45.7rem;
+  }
+
+  .features-wrapper {
+    padding: 0rem 16rem;
+    grid-template-columns: repeat(3, 1fr);
   }
 }
