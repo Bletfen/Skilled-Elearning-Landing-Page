@@ -36,6 +36,8 @@
 .box-button {
   border: none;
   background-color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
 .box-button-text {
@@ -45,8 +47,18 @@
   line-height: 150%;
 }
 
+.box-button:hover {
+  opacity: 0.5;
+}
+
 @media only screen and (min-width: 48rem) {
   .features-container {
     margin-bottom: 3.6rem;
+  }
+
+  .description2 {
+    font-size: 1.8rem;
+    width: 28.8rem;
+    height: 11.3rem;
   }
 }
