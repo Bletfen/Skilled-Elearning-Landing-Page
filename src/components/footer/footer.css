@@ -1,0 +1,25 @@
+.footer-container {
+  background-color: #13183f;
+  padding: 2.4rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8rem;
+}
+
+.footerBtn {
+  background: linear-gradient(180deg, #4851ff 0%, #f02aa6 100%);
+}
+
+@media only screen and (min-width: 90rem) {
+  .footer-container {
+    margin-top: 14.4rem;
+    padding: 2.4rem 4.4rem;
+  }
+}
+
+@media only screen and (min-width: 90rem) {
+  .footer-container {
+    padding: 2.4rem 16rem;
+  }
+}

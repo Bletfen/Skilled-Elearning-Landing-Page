@@ -1,0 +1,8 @@
+@media only screen and (min-width: 90rem) {
+  .header-main-body-wrapper {
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+}
